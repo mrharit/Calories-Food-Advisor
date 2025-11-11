@@ -68,22 +68,26 @@ Streamlit Output Display (User-facing Results)
 bash
 Copy code
 git clone https://github.com/mrharit/Calories-Food-Advisor
+
 2️⃣ Create and Activate Virtual Environment
 bash
 Copy code
 python -m venv venv
 source venv/bin/activate   # (Linux/Mac)
 venv\Scripts\activate      # (Windows)
+
 3️⃣ Install Dependencies
 bash
 Copy code
 pip install -r requirements.txt
+
 4️⃣ Set Up Environment Variables
 Create a .env file in your root directory and add your Google API key:
 
 bash
 Copy code
 GOOGLE_API_KEY=your_google_api_key_here
+
 5️⃣ Run the Application
 bash
 Copy code
