@@ -60,6 +60,8 @@ LangChain Orchestrator (Prompt + Context)
 Calorie Estimation + Nutritional Summary
         ↓
 Streamlit Output Display (User-facing Results)
+
+```
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
 bash
