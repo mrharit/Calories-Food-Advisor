@@ -5,7 +5,6 @@
 ![LangChain](https://img.shields.io/badge/LangChain-Integration-success?logo=chainlink&logoColor=white)
 ![Google Gemini Pro](https://img.shields.io/badge/Google%20Gemini%20Pro-Vision%20Model-orange?logo=google)
 ![Status](https://img.shields.io/badge/Project_Status-Active-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Platform](https://img.shields.io/badge/Platform-Cloud%20Ready-0078D7?logo=googlecloud)
 
 An **end-to-end Generative AI-powered application** that uses **Google Gemini Pro Vision API** to analyze food images and provide **calorie and nutritional insights**.  
