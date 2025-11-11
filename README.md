@@ -1,5 +1,3 @@
-# Calories-Food-Advisor
-End To End Large Image Model(LIM) GENAI Using Google Gemini Pro
 # 🥗 Health Management App – Calories Food Advisor (Large Image Model GenAI)
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
@@ -62,3 +60,99 @@ LangChain Orchestrator (Prompt + Context)
 Calorie Estimation + Nutritional Summary
         ↓
 Streamlit Output Display (User-facing Results)
+⚙️ Installation & Setup
+1️⃣ Clone the Repository
+bash
+Copy code
+git clone https://github.com/mrharit/health-management-app-genai.git
+cd health-management-app-genai
+2️⃣ Create and Activate Virtual Environment
+bash
+Copy code
+python -m venv venv
+source venv/bin/activate   # (Linux/Mac)
+venv\Scripts\activate      # (Windows)
+3️⃣ Install Dependencies
+bash
+Copy code
+pip install -r requirements.txt
+4️⃣ Set Up Environment Variables
+Create a .env file in your root directory and add your Google API key:
+
+bash
+Copy code
+GOOGLE_API_KEY=your_google_api_key_here
+5️⃣ Run the Application
+bash
+Copy code
+streamlit run app.py
+📦 Requirements
+Your requirements.txt file should include:
+
+nginx
+Copy code
+streamlit
+google-generativeai
+python-dotenv
+langchain
+PyPDF2
+chromadb
+pdf2image
+faiss-cpu
+langchain_google_genai
+💡 How It Works
+Users upload a food image through the Streamlit interface.
+
+The image is processed and sent to Google Gemini Pro Vision (a multimodal LLM) for visual understanding.
+
+Using LangChain, the model is prompted to describe the food items and estimate their calorie content.
+
+The system returns a structured, human-readable nutrition breakdown with calorie estimates per item.
+
+📊 Example Output
+Input:
+🍽️ Image of Rice, Salad, and Chicken
+
+Output:
+
+markdown
+Copy code
+1. Rice - 200 calories  
+2. Grilled Chicken - 250 calories  
+3. Green Salad - 80 calories  
+
+✅ Total Calories: 530 kcal
+🌍 Real-World Use Case
+This project addresses a real-world problem by providing a convenient AI-based tool for:
+
+Health & Fitness Tracking
+
+Nutrition Awareness
+
+Smart City & Healthcare Tech Integration
+
+Personalized Diet Planning
+
+🧠 Learning & Takeaways
+Through this project, I developed strong hands-on experience in:
+
+Generative AI (Google Gemini Pro, LangChain)
+
+Prompt Engineering and Multimodal AI Integration
+
+Streamlit App Development & Deployment
+
+End-to-End ML/AI System Design and Cloud Readiness
+
+📈 Future Enhancements
+🔍 Integrate OCR for analyzing food labels or menus.
+
+🗣️ Add voice-based interaction using Gemini Speech APIs.
+
+📱 Build mobile-responsive version via Streamlit or React.
+
+🧮 Connect with real-world nutrition databases (e.g., USDA API).
+
+🤝 Contributing
+Contributions, feedback, and suggestions are always welcome!
+Feel free to open issues or submit pull requests.
