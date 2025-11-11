@@ -73,8 +73,8 @@ git clone https://github.com/mrharit/Calories-Food-Advisor
 bash
 Copy code
 python -m venv venv
-source venv/bin/activate   # (Linux/Mac)
-venv\Scripts\activate      # (Windows)
+source venv/bin/activate    #  (Linux/Mac)
+venv\Scripts\activate       #  (Windows)
 
 3️⃣ Install Dependencies
 bash
@@ -92,7 +92,9 @@ GOOGLE_API_KEY=your_google_api_key_here
 bash
 Copy code
 streamlit run app.py
-📦 Requirements
+
+
+## 📦 Requirements
 Your requirements.txt file should include:
 
 nginx
@@ -106,7 +108,8 @@ chromadb
 pdf2image
 faiss-cpu
 langchain_google_genai
-💡 How It Works
+
+## 💡 How It Works
 Users upload a food image through the Streamlit interface.
 
 The image is processed and sent to Google Gemini Pro Vision (a multimodal LLM) for visual understanding.
@@ -115,8 +118,10 @@ Using LangChain, the model is prompted to describe the food items and estimate t
 
 The system returns a structured, human-readable nutrition breakdown with calorie estimates per item.
 
-📊 Example Output
+## 📊 Example Output
+
 Input:
+
 🍽️ Image of Rice, Salad, and Chicken
 
 Output:
@@ -128,7 +133,8 @@ Copy code
 3. Green Salad - 80 calories  
 
 ✅ Total Calories: 530 kcal
-🌍 Real-World Use Case
+
+## 🌍 Real-World Use Case
 This project addresses a real-world problem by providing a convenient AI-based tool for:
 
 Health & Fitness Tracking
@@ -139,7 +145,7 @@ Smart City & Healthcare Tech Integration
 
 Personalized Diet Planning
 
-🧠 Learning & Takeaways
+## 🧠 Learning & Takeaways
 Through this project, I developed strong hands-on experience in:
 
 Generative AI (Google Gemini Pro, LangChain)
@@ -150,7 +156,8 @@ Streamlit App Development & Deployment
 
 End-to-End ML/AI System Design and Cloud Readiness
 
-📈 Future Enhancements
+## 📈 Future Enhancements
+
 🔍 Integrate OCR for analyzing food labels or menus.
 
 🗣️ Add voice-based interaction using Gemini Speech APIs.
