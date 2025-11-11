@@ -62,12 +62,12 @@ Calorie Estimation + Nutritional Summary
 Streamlit Output Display (User-facing Results)
 
 ```
-⚙️ Installation & Setup
+
+##⚙️ Installation & Setup
 1️⃣ Clone the Repository
 bash
 Copy code
-git clone https://github.com/mrharit/health-management-app-genai.git
-cd health-management-app-genai
+git clone https://github.com/mrharit/Calories-Food-Advisor
 2️⃣ Create and Activate Virtual Environment
 bash
 Copy code
