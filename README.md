@@ -1,7 +1,6 @@
 # 🥗 Health Management App – Calories Food Advisor (Large Image Model GenAI)
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.37%2B-FF4B4B?logo=streamlit&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-Integration-success?logo=chainlink&logoColor=white)
 ![Google Gemini Pro](https://img.shields.io/badge/Google%20Gemini%20Pro-Vision%20Model-orange?logo=google)
 ![Status](https://img.shields.io/badge/Project_Status-Active-brightgreen)
