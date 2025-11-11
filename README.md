@@ -63,7 +63,7 @@ Streamlit Output Display (User-facing Results)
 
 ```
 
-##⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 1️⃣ Clone the Repository
 bash
 Copy code
